@@ -1,0 +1,43 @@
+body {
+  background: white;
+  font-family: sans-serif;
+  margin: 30px 270px;
+  padding: 70px;
+}
+
+img {
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  width: 568px;
+}
+
+h1,
+h2 {
+  color: #fdd833;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+.btn-warning {
+  margin-inline-end: 30px;
+  margin-inline-start: 30px;
+  color: #ffff;
+}
+
+.card {
+  background: black;
+}
+
+.col-md-3 {
+  text-align: right;
+  color: #fdd833;
+  padding-bottom: 20px;
+}
+
+.col-md-3:hover {
+  cursor: pointer;
+}
