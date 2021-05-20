@@ -22,6 +22,18 @@ form {
   text-align: center;
 }
 
+a {
+  color: #fdd833;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.GitHub-link:hover {
+  color: #ffff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .btn-warning {
   margin-inline-end: 30px;
   margin-inline-start: 30px;
