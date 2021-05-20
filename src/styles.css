@@ -24,12 +24,13 @@ form {
 
 a {
   text-decoration: none;
+  color: #fdd833;
 }
 
 p {
   color: #fdd833;
-  text-align: center;
-  padding-bottom: 20px;
+  text-align: right;
+  padding-bottom: 10px;
   transition: all 150ms ease-in-out;
 }
 
