@@ -23,8 +23,13 @@ form {
 }
 
 a {
-  color: #fdd833;
   text-decoration: none;
+}
+
+p {
+  color: #fdd833;
+  text-align: center;
+  padding-bottom: 20px;
   transition: all 150ms ease-in-out;
 }
 
