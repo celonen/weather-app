@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather Predictions</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <img
+          src="src/sunset-cloud-image.jpg"
+          alt="Sunset picture"
+          class="banner-image"
+        />
+        <br />
+        <form id="search-form">
+          <input
+            type="text"
+            id="search-text-input"
+            placeholder="Enter a city"
+          />
+          <button type="button" id="search-button" class="btn btn-warning"/>
+            Search
+          </button>
+          <button type="current-button" id="current-button" class="btn btn-danger"/>
+            Current
+          </button>
+        </form>
+        <br />
+        <h1>
+          Currently 6° in Älta, Sweden
+        </h1>
+        <br />
+        <h2>
+          Friday 14:00 2021
+        </h2>
+        <br />
+        <div class="row">
+          <div class="col-md-3">
+            <br />
+            12:00
+            <br />
+            15:00
+            <br />
+            18:00
+            <br />
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              Mon
+              <br />
+              ⛅️
+              <br />
+              🌥
+              <br />
+              ☁️
+            </div>
+            <div class="col-md-3">
+              Tue
+              <br />
+              🌦
+              <br />
+              🌧
+              <br />
+              🌧
+            </div>
+            <div class="col-md-3">
+              Wed
+              <br />
+              ⛈
+              <br />
+              🌩
+              <br />
+              🌪
+            </div>
+            <div class="col-md-3">
+              Thu
+              <br />
+              🌨
+              <br />
+              ❄️
+              <br />
+              ☁️
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
