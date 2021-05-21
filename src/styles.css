@@ -29,7 +29,7 @@ a {
 
 p {
   color: #fdd833;
-  text-align: right;
+  text-align: center;
   padding-bottom: 10px;
   transition: all 150ms ease-in-out;
 }
@@ -37,6 +37,7 @@ p {
 .GitHub-link:hover {
   color: #ffff;
   cursor: pointer;
+  text-align: center;
   text-decoration: underline;
 }
 
